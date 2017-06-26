@@ -211,4 +211,33 @@ h4 {
 }
 /*============================
 		END CONTENT STYLES
-	==========================
+	==========================*/
+/*	=======================================
+  @MEDIA QUERIES
+  =======================================*/
+  @media only screen and (max-device-width: 480px) {
+		div#home {
+			width: 400px;
+		}
+
+		div#header {
+			height: 93px;
+			position: relative;
+		}
+
+		div#header h1 {
+			font-size: 140%;
+		}
+
+		#Tech #Soft #Volex #Contact {
+			float: none;
+			width: auto;
+		}
+
+		#navigation {
+			float:none;
+			width: auto;
+		}
+	}
+
+
