@@ -1,0 +1,220 @@
+/*==================================
+	FONT STYLES
+==================================*/
+
+h1 {
+	color: black;
+	font-family: Helvetica Neue, arial, sans-sarif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 600%;
+}
+
+h2 {
+	color: black;
+	font-family: Roboto Slab, Helvetica Neue, arial, sans-sarif;
+	font-weight: bold;
+	font-size: 250%;
+	text-align:left;
+	
+}
+
+h3 {
+	color: black;
+	font-family: Roboto Slab, Helvetica Neue, arial, sans-sarif;
+	font-weight: bold;
+	font-size: 250%;
+	text-align: left;
+	padding: 20px;
+}
+
+h4 {
+	color: black;
+	font-size: 200%;
+	text-align: center;
+}
+
+#mid {
+	text-align: center;
+}
+/*============================
+	END FONT STYLES
+==============================
+/*==============================
+	CONTENT STYLES
+==============================*/
+.top {
+	padding: 100px;
+	background: url(../img/sky.jpg) no-repeat 50% 50%;
+	
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background: cover;
+	background-size: cover;
+	width: 100%;
+	display: block;
+	height: auto;-*/
+	text-align: left;
+	text-shadow: 3px 3px 6px rgba(0,0,0,6);	
+	
+}
+
+.box {
+
+	text-align:center;
+	/*width: 100%;*/
+	
+}
+
+#Tech {
+	background-color: #fff;
+	padding: 200px;
+	/*display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;*/
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	text-align: center;
+	color: lightyellow;
+	
+	
+}
+
+.icon-overlay {
+	
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center; /* For centering text inside .icon-overlay */
+	align-items: center;
+	opacity: 0;
+	transition: opacity .5s;
+	border-radius: 10px;
+	cursor: pointer;
+	
+	
+	
+}
+
+.icon-overlay:hover {
+	opacity: 1;
+}
+
+.icon {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 1em;
+	overflow: hidden;
+	border-radius: 8px;
+	padding: 1px;
+	
+}
+
+.icon:hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+	
+	
+}		
+	
+.icon-container {
+	text-align: center;
+	margin: 30px auto;
+	/*width: 38%;
+    height: 250px;
+	display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;*/
+	padding: 30px;
+	border-radius: 8px;
+	border:1px solid #021a40;
+	background-color: #fff;
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
+	
+}
+
+.icon2 {
+	padding: 20px;
+	/*width: 95%*/
+}
+
+.icon3 {
+	/*width: 66%;*/
+	padding: 30px;
+}
+
+.bold {
+	position: relative;
+	/*width: 100%*/
+	
+}
+
+.bold h1 {
+	color: black;
+	font-size: 400%;
+}
+	
+#Soft {
+	background-color: #fff;
+	padding: 200px;
+	/*display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;*/
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	text-align: center;
+	color: lightyellow;
+}
+
+#Volex {
+	background-color: #fff;
+	padding: 200px;
+	/*display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;*/
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	text-align: center;
+	color: lightyellow;
+}
+
+	
+
+#Contact {
+	background-color: #fff;
+	padding: 200px;
+	/*display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;*/
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	text-align: center;
+	color: lightyellow;
+}
+
+.connect {
+	position: relative;
+	/*width: 30%;*/
+	
+}
+/*============================
+		END CONTENT STYLES
+	==========================
+	
+	/*=======================================
+  @MEDIA QUERIES
+  =======================================*/
+  
+  @media (min-width: 381) {
+	  .btn btn-default popover-dismiss{
+		  data-placement: top;
+	  }
+  }
