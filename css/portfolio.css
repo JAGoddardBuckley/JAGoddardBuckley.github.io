@@ -47,13 +47,13 @@ h4 {
 	padding: 100px;
 	background: url(../img/sky.jpg) no-repeat 50% 50%;
 	
-	-webkit-background-size: cover;
+	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background: cover;
 	background-size: cover;
 	width: 100%;
 	display: block;
-	height: auto;
+	height: auto;-*/
 	text-align: left;
 	text-shadow: 3px 3px 6px rgba(0,0,0,6);	
 	
@@ -62,16 +62,16 @@ h4 {
 .box {
 
 	text-align:center;
-	width: 100%;
+	/*width: 100%;*/
 	
 }
 
 #Tech {
 	background-color: #fff;
 	padding: 200px;
-	display: -webkit-flex;
+	/*display: -webkit-flex;
     display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
@@ -117,6 +117,7 @@ h4 {
 
 .icon:hover img {
 	transform: scale(1.1);
+	cursor: pointer;
 	
 	
 }		
@@ -124,11 +125,11 @@ h4 {
 .icon-container {
 	text-align: center;
 	margin: 30px auto;
-	width: 38%;
+	/*width: 38%;
     height: 250px;
 	display: -webkit-flex;
     display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 	padding: 30px;
 	border-radius: 8px;
 	border:1px solid #021a40;
@@ -139,22 +140,17 @@ h4 {
 
 .icon2 {
 	padding: 20px;
-	width: 95%;
+	/*width: 95%*/
 }
 
 .icon3 {
-	width: 66%;
+	/*width: 66%;*/
 	padding: 30px;
 }
 
-.icon4 {
-	width: 67%;
-	padding: 20px;
-}
-		
 .bold {
 	position: relative;
-	width: 100%;
+	/*width: 100%*/
 	
 }
 
@@ -166,9 +162,9 @@ h4 {
 #Soft {
 	background-color: #fff;
 	padding: 200px;
-	display: -webkit-flex;
+	/*display: -webkit-flex;
     display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
@@ -179,9 +175,9 @@ h4 {
 #Volex {
 	background-color: #fff;
 	padding: 200px;
-	display: -webkit-flex;
+	/*display: -webkit-flex;
     display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
@@ -194,9 +190,9 @@ h4 {
 #Contact {
 	background-color: #fff;
 	padding: 200px;
-	display: -webkit-flex;
+	/*display: -webkit-flex;
     display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;*/
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
@@ -206,15 +202,19 @@ h4 {
 
 .connect {
 	position: relative;
-	width: 30%;
+	/*width: 30%;*/
 	
 }
 /*============================
 		END CONTENT STYLES
-	==========================*/
-/*	=======================================
+	==========================
+	
+	/*=======================================
   @MEDIA QUERIES
-  =======================================
- 
-
-
+  =======================================*/
+  
+  @media (min-width: 381) {
+	  .btn btn-default popover-dismiss{
+		  data-placement: top;
+	  }
+  }
